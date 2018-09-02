@@ -45,8 +45,6 @@ def linfit(x_numbers, y_numbers):
     print('a='+ str(a))
     print('b='+ str(b))
     
-
-    
     # Numbers for X
     x = [i for i in range(-1, 5)]
     # Numbers for Y
@@ -62,8 +60,6 @@ def linfit(x_numbers, y_numbers):
     plt.grid(True, linestyle='-', color='0.75')
     plt.scatter(x_numbers, y_numbers, edgecolors='r', s=10)
     plt.show()
-
-   
 
        
 linfit(x_numbers, y_numbers)
